@@ -64,7 +64,6 @@ int main(int argc, char **argv){
   }
 
 
-  MPI_Barrier(MCW);
 
   // Combine sorted arrays
   if(!rank) {
